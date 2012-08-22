@@ -16,3 +16,6 @@
 
 # Ignore carrierwave local uploads
 /public/uploads
+
+# secret production keys
+/config/initializers/_ENV.rb
