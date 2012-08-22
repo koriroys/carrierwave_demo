@@ -7,6 +7,8 @@
 
 <p>
   <b>File:</b>
+  <%= image_tag @photo.file_url(:thumb) %>
+  <%= image_tag @photo.file.thumb %>
   <%= image_tag @photo.file %>
 </p>
 
